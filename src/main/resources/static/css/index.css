@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+/* Updated styles for button links */
+body {
+  background-color: antiquewhite; /* Set background color to magenta */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 20px; /* Space between heading and buttons */
+}
+
+a.button {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff; /* Change to your desired button color */
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+a.button:hover {
+  background-color: #0056b3; /* Change to your desired button hover color */
+}
